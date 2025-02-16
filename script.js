@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    //const board = document.getElementById('game-board');
+    const board = document.getElementById('game-board');
     const cells = document.querySelectorAll('.cell');
     const result = document.getElementById('result');
     const resetBtn = document.getElementById('resetBtn');
