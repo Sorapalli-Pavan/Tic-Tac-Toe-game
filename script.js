@@ -63,6 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const handleCellClick = (event) => {
         const index = event.target.dataset.index;
+        console.log(`Cell clicked: ${index}`); // Debugging log
         handleClick(index);
     };
 
